@@ -1,3 +1,7 @@
+"""
+The main module to kick off asynchronous event loop
+"""
+
 import asyncio
 from hub import Hub
 from publisher import Publisher
