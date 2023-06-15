@@ -3,7 +3,7 @@ Each subscriber maintains an async queue which holds messages being published.
 It registers itself to the hub.
 Reading from queue is asynchronous so that while the subscriber is waiting for message to be available,
 other tasks can be picked up.
-Reading loop is running until receives the  message 'TERMINATE'.
+Reading loop is running until receives the message 'TERMINATE'.
 Once terminated, it removes its queue from hub
 """
 
