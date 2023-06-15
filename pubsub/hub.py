@@ -1,7 +1,7 @@
 """
-hub is a central point that maintains a set of subscribers,
+Hub is a central point that maintains a set of subscribers,
 thus decouples publisher from subscribers
-hub does job of pushing message to each subscriber when publisher publishes
+Hub does job of pushing message to each subscriber when publisher publishes
 """
 
 
