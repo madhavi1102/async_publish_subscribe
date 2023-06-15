@@ -2,8 +2,8 @@
 
 #### KEY FEATURES
 
-* Implemented an asynchronous publish-subscribe application using asyncio package with 
-  pure python. 
+* Implemented an asynchronous publish-subscribe application using ```asyncio``` package with 
+  pure ```python```. 
 * Publisher and Subscribers are decoupled thus publisher does not maintain track of subscribers.
 * This demonstrates how broadcasting of notifications to multiple subscribed users works asynchronously 
   with leveraging asyncio in python.
