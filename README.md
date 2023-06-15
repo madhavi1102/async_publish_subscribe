@@ -25,3 +25,71 @@ python >= 3.7
 ```  
 python main.py
  ```
+ 
+ ### OUTPUT
+
+```
+Publisher has 0 subscribers
+Subscriber0 is ready now to read
+Subscriber2 is ready now to read
+Publisher has 5 subscribers
+Subscriber0 got message: THIS IS EVENT-1
+Subscriber2 got message: THIS IS EVENT-1
+Subscriber3 is ready now to read
+Subscriber3 got message: THIS IS EVENT-1
+Subscriber1 is ready now to read
+Subscriber1 got message: THIS IS EVENT-1
+Publisher has 5 subscribers
+Subscriber3 got message: THIS IS EVENT-2
+Subscriber0 got message: THIS IS EVENT-2
+Subscriber1 got message: THIS IS EVENT-2
+Subscriber2 got message: THIS IS EVENT-2
+Subscriber4 is ready now to read
+Subscriber4 got message: THIS IS EVENT-1
+Subscriber4 got message: THIS IS EVENT-2
+Publisher has 5 subscribers
+Subscriber3 got message: THIS IS EVENT-3
+Subscriber0 got message: THIS IS EVENT-3
+Subscriber1 got message: THIS IS EVENT-3
+Subscriber1 has enough reading!
+Subscriber1 is terminating!
+Subscriber4 got message: THIS IS EVENT-3
+Subscriber2 got message: THIS IS EVENT-3
+Publisher has 4 subscribers
+Subscriber3 got message: THIS IS EVENT-4
+Subscriber0 got message: THIS IS EVENT-4
+Subscriber4 got message: THIS IS EVENT-4
+Subscriber2 got message: THIS IS EVENT-4
+Publisher has 4 subscribers
+Subscriber3 got message: THIS IS EVENT-5
+Subscriber0 got message: THIS IS EVENT-5
+Subscriber4 got message: THIS IS EVENT-5
+Subscriber2 got message: THIS IS EVENT-5
+Publisher has 4 subscribers
+Subscriber3 got message: THIS IS EVENT-6
+Subscriber0 got message: THIS IS EVENT-6
+Subscriber4 got message: THIS IS EVENT-6
+Subscriber2 got message: THIS IS EVENT-6
+Publisher has 4 subscribers
+Subscriber3 got message: THIS IS EVENT-7
+Subscriber3 has enough reading!
+Subscriber3 is terminating!
+Subscriber0 got message: THIS IS EVENT-7
+Subscriber4 got message: THIS IS EVENT-7
+Subscriber2 got message: THIS IS EVENT-7
+Publisher has 3 subscribers
+Subscriber0 got message: THIS IS EVENT-8
+Subscriber0 has enough reading!
+Subscriber0 is terminating!
+Subscriber4 got message: THIS IS EVENT-8
+Subscriber2 got message: THIS IS EVENT-8
+Publisher has 2 subscribers
+Subscriber4 got message: THIS IS EVENT-9
+Subscriber2 got message: THIS IS EVENT-9
+Subscriber4 got message: TERMINATE
+Subscriber4 is terminating!
+Subscriber2 got message: TERMINATE
+Subscriber2 has enough reading!
+Subscriber2 is terminating!
+
+```
