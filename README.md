@@ -8,7 +8,7 @@
 * This demonstrates how broadcasting of notifications to multiple subscribed users works asynchronously 
   with leveraging asyncio in python.
 
-Asyncio enables concurrent programming in python, it makes world of multiple subscribers reading the same notification
+```Asyncio``` enables concurrent programming in python, it makes world of multiple subscribers reading the same notification
 simultaneously. Performance of this asynchronous publish-subscriptions model is overall always much higher than sequential model.
 
 Here, publisher and subscribers are decoupled with introducing a middle layer 'hub' which does task of maintaining subscribers and 
