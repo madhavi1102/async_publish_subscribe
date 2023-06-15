@@ -1,6 +1,6 @@
 """
-Publisher publishes to all subscribers synchronously
-However, it is asynchronous such that upon resting, other tasks can be completed before the next iteration
+Publisher publishes to all subscribers synchronously.
+However,it is asynchronous such that upon resting, other tasks can be completed before the next iteration
 The publisher sends n notifications.
 """
 import asyncio
