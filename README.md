@@ -1,6 +1,6 @@
 ## async_publish_subscribe
 
-#### KEY FEATURES
+### KEY FEATURES
 
 * Implemented an asynchronous publish-subscribe application using ```asyncio``` package with 
   pure ```python```. 
